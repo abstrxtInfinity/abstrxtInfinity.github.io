@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+
+<body>
+    <div class="menuToggle" onClick="ToggleMenu();"></div>
+    <div class="navigation">
+        <div class="navArea">
+            <ul>
+                <li><a href="#" onmouseenter="changeImage('./images/img1.jpg')">Home</a></li>
+                <li><a href="#" onmouseenter="changeImage('./images/img2.jpg')">About</a></li>
+                <li><a href="#" onmouseenter="changeImage('./images/img4.jpg')">Team</a></li>
+                <li><a href="#" onmouseenter="changeImage('./images/img3.jpg')">Services</a></li>
+                <li><a href="#" onmouseenter="changeImage('./images/img5.jpg')">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="imgArea">
+            <img src="./images/img1.jpg" id="slider">
+        </div>
+    </div>
+</body>
+<script>
+    function changeImage(anything) {
+        document.getElementById('slider').src = anything;
+    }
+
+    function ToggleMenu() {
+        const menuToggle = document.querySelector('.menuToggle');
+        const navigation = document.querySelector('.navigation');
+        menuToggle.classList.toggle('active')
+        navigation.classList.toggle('active')
+    }
+</script>
+
+</html>
