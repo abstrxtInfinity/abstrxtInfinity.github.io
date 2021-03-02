@@ -13,3 +13,5 @@
 > LoginForm GlassMorph: https://codepen.io/abstrxtinfinity/pen/NWRQpdx
 
 > FoldableCard: https://codepen.io/abstrxtinfinity/pen/ExNLGPP
+
+> Navbar_bgChange: https://abstrxtinfinity.github.io/navbar_bgChange/index.html
