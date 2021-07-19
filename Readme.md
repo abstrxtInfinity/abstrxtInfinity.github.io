@@ -17,3 +17,5 @@
 > Navbar_bgChange: https://abstrxtinfinity.github.io/navbar_bgChange/index.html
 
 > Hover Button: https://abstrxtinfinity.github.io/HoverButton/index.html
+
+> Water Droplets Drawing Using CSS: https://abstrxtinfinity.github.io/waterDrops/index.html
