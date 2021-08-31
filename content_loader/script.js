@@ -13,6 +13,8 @@ setTimeout(getData, 2500)
 
 
 function getData() {
+    // ? For now the data is hard coded. It can be fetched through an API in a project.
+
     header.innerHTML = ' <img src="./image.jpg" alt="background" />'
 
     title.innerHTML = 'Among Us'
