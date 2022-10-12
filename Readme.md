@@ -10,7 +10,7 @@
 
 > Wave Background: https://codepen.io/abstrxtinfinity/pen/ExgqNKM?editors=1100
 
-> LoginForm GlassMorph: https://codepen.io/abstrxtinfinity/pen/NWRQpdx
+> LoginForm GlassMorph: https://codepen.io/abstrxtinfinity/pen/QWKepdE
 
 > FoldableCard: https://codepen.io/abstrxtinfinity/pen/ExNLGPP
 
